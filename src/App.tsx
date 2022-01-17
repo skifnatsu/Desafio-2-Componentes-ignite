@@ -37,6 +37,7 @@ export function App() {
     setSelectedGenreId(id);
   }
 
+  
   return (
     <div style={{ display: 'flex', flexDirection: 'row' }}>
       <SideBar selectedGenreId={ selectedGenreId} handleClickButton={handleClickButton}/>
